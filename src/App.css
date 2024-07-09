@@ -1,0 +1,245 @@
+/* body {
+  background-image: url(./assets/images/bg-top.png),
+    url(./assets/images/bg-bottom.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #090909;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-position: top left, bottom left;
+} */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+button{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Joystix";
+}
+.bg-color{
+  background-color: #D88331CC;
+}
+.navigation{
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  margin-bottom: 4rem;
+}
+.nav-header{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.logo-link{
+  display: block;
+}
+.logo-link img{
+  max-width: 10vw;
+  min-width: 150px;
+}
+.nav-header button{
+  padding: 1.1rem 1.3rem;
+  border-radius: 99px;
+  font-size: 0.9rem;
+  font-family: "Joystix" !important;
+  background: linear-gradient(91.25deg, #EDBB41 7.38%, #F6DF6D 99.3%) !important;
+  color: black;
+  font-weight: 300 !important;
+  box-shadow: 0px 2px 20px #F5DB68 !important;
+}
+.backgound-custom{
+    background: url(../src/assets/backgound.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-box-shadow{
+    box-shadow: 0px 1px 16px #F5DB68;
+}
+.section-box-shadow{
+    box-shadow: 0px 1px 14px rgba(245, 219, 104, 0.8), 0px -1px 14px rgba(245, 219, 104, 0.8);
+}
+.btn-box-shodow{
+    box-shadow: 0px 2px 20px #F5DB68;
+}
+.card-box-shadow{
+    box-shadow: 0px -1px 16px #F5DB68;
+}
+.btn-gradient{
+    background: linear-gradient(91.25deg, #EDBB41 7.38%, #F6DF6D 99.3%);
+}
+.swiper {
+    padding: 1.125rem 0 !important;
+    z-index: 0 !important;
+}
+/* 
+iframe {
+  display: none !important;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+} */
+.banner-container{
+  max-width:1180px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 16px;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  color: #ffffff;
+  font-family: "Joystix";
+}
+.bg-banner{
+  background-color: #D88331;
+}
+.banner-container h2{
+  font-size: 22px;
+  padding-top: 0.7rem;
+  font-weight: 400;
+}
+.banner-socials{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-socials .check{
+  width: 30px;
+}
+.banner-social-link {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding-top: 0.7rem;
+}
+.banner-socials p{
+  padding-top: 0.5rem;
+  font-size: 14px;
+}
+.footer-container{
+  background-color: #D88331CC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 50px;
+  padding: 1.4rem 0;
+}
+.footer-container .footer-socials {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+}
+
+.nft-slider-container{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1rem;
+  color: #ffffff;
+  font-family: "Joystix";
+}
+.nft-card{
+  border-radius: 16px;
+  padding: 1rem;
+  background-color: #D88331;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nft-card-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.nft-img-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.6rem 0;
+}
+.nft-img-wrap img{
+  max-width: 180px;
+}
+.price-text-center{
+  text-align: center;
+}
+.slider-navigation-btns{
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.slider-navigation-btns button{
+  background-color: transparent;
+}
+.slider-navigation-btns button img{
+  width: 120px;
+}
+.openbox-container{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0.7rem;
+}
+.openbox-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2.5rem;
+  padding: 1.3rem 0px;
+  font-family: "Joystix";
+  border-radius: 16px;
+  background-color: #D88331;
+}
+.openbox-btn{
+  /* background: #f8d666; */
+  border-radius: 99px;
+  padding: 1rem 1rem;
+  font-size: 0.9rem;
+}
+.line-img img{
+  max-width: 25px;
+}
+.graph-img{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: center;
+}
+
+@media (max-width:769px){
+  .banner-container h2 {
+    font-size: 17px;
+  }
+}
+@media (max-width:590px){
+  .openbox-wrap{
+    flex-direction: column;
+  }
+  .line-img img{
+    transform: rotate(90deg);  
+  }
+}
+@media (max-width:480px){
+  .banner-container h2 {
+    font-size: 14px;
+  }
+}
